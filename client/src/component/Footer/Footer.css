@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-size: cover;
+   /* margin: -0.5rem 3.5rem;*/
+    position: relative;
+    margin-top: 2rem;
+    margin-left: -3rem;
+    height: 30vh;
+}
+.f-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 2rem;
+    color: white;
+}
+.f-icon{
+    display: flex;  
+    gap: 2rem;
+}

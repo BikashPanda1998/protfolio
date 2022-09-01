@@ -1,0 +1,74 @@
+.work{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    
+    margin-top: 4rem;
+    height: 90vh;
+}
+.w-right{
+    position: relative;
+}
+.maincircle{
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    box-shadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    top: 2rem;
+    border-radius: 100%;
+    background: white;
+}
+.maincircle>*{
+    position: absolute;
+}
+.maincircle>:nth-child(1){
+    top: -2rem;
+    left: 6rem;
+}
+.maincircle>:nth-child(2){
+    top: 5rem;
+    left: -2rem;
+}
+.maincircle>:nth-child(3){
+    top: 5rem;
+    left: 6.5rem;
+}
+.maincircle>:nth-child(4){
+    left: 15rem;
+    top: 6rem;
+}
+.maincircle>:nth-child(5){
+    top: 14rem;
+    left: 6rem;
+}
+.subcircle{
+    width: 6rem;
+    height: 6rem;
+    border: 4px solid #ebebeb;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+.subcircle>img{
+    transform: scale(0.6);
+}
+.bcircle{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    z-index: -1;
+    border-radius: 100%;
+}
+.bluecircle{
+    background: #194988;
+    left: 18rem;
+    top: 0rem;
+}
+.yellowcircle{
+    background:#f5c32c ;
+    left: 18rem;
+    top: 8rem;
+}

@@ -1,0 +1,35 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio span:nth-of-type(1){
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.portfolio span:nth-of-type(2){
+    color: #fca61f;
+    font-weight: bold;
+    font-size: 2.6rem;
+    font-family: sans-serif;
+}
+
+.portfolio .swiper{
+    overflow: visible !important;
+}
+.portfolio-slider{
+    margin-top: 3rem;
+    width: 100%;
+}
+.portfolio-slider .swiper-slide{
+    width: 20rem;
+}
+.portfolio img{
+    width: 23rem;
+    filter: drop-shadow(-12px 15px 16px rgba(0,0,0, 0.25));
+    border-radius: 16px;
+}
